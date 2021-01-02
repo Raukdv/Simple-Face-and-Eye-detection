@@ -2,7 +2,7 @@
 Just a simple scripts to face and eye detection using OpenCV
 
 Solo necesitas instalar el "requeriments.txt"
-y ejecutar desde la consola/termianl/bash como quieras llamarlo.
+y ejecutar desde la consola/terminal/bash como quieras llamarlo.
 El "main.py"
 
 
