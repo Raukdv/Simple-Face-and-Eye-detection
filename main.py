@@ -26,8 +26,8 @@ while(1):
 		cv.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
 
 	cv.imshow('frame', frame)
-	#Si se preciosa espacio, se cerrara el programa:
 
+	#Si se preciosa espacio, se cerrara el programa:
 	k = cv.waitKey(32) & 0xFF
 	if k == 32:
 		break
@@ -36,12 +36,3 @@ cap.release()
 cv.destroyAllWindows()
 
 
-
-
-
-
-#Si tienes problemas con el numpy usa en la terminal: 
-#python -c "import numpy;print(numpy.__version__);print(numpy.__file__)";
-#Si tu version es de 1.19.4, desintalala e isntala pip install numpy==1.19.3
-#Esto mitiga el siguiente error: 
-#numpy fails to pass a sanity check due to a bug in the windows runtime. See this issue for more information
